@@ -1,16 +1,18 @@
-import getpass
-
+#import getpass
+import random
 i = 1;
 
-n = ['Batman', 'Superman', 'Matt Heafy', 'James Hetfield', 'Michael Jordan', 'Muhammed Ali', 'Martin Luther King', 'Sherlock Holmes','Benedict Cumberbach']
+n = ['Marilyn Monroe', 'Abraham Lincoln', 'Mother Teresa', 'John F. Kennedy', 'Martin Luther King', 'Nelson Mandela','Winston Churchill', 'Bill gates', 'Mahatma Gandhi', 'Margaret Thatcher','Christopher Columbus', 'Charles Darwin', 'Elvis Presley','Albert Einstein','Paul McCartney','Mikhail Gorbachev', 'Jawaharlal Nehru', 'Leonardo Da Vinci', 'Leo Tolstoy', 'Pablo Picasso', 'Vincent Van Gogh','Louis Pasteur','Thomas Edison','Indira Gandhi', 'Oprah Winfrey', 'Benazir Bhutto', 'Lugwig Beethoven']
 
-print n
+randomList = random.sample(n,8)
+
+print randomList
 print 'Type your selection exactly as shown in the list above.'
 
 response = ['Y','N','y','n']
 correct = ['Correct','correct']
 
-r = getpass.getpass("Select from the list above: ")
+#r = getpass.getpass("Select from the list above: ")
 
 while (i<21):
 	c = raw_input('%d. '%i);
