@@ -2,7 +2,7 @@
 import random
 i = 1;
 
-n = ['Marilyn Monroe', 'Abraham Lincoln', 'Mother Teresa', 'John F. Kennedy', 'Martin Luther King', 'Nelson Mandela','Winston Churchill', 'Bill gates', 'Mahatma Gandhi', 'Margaret Thatcher','Christopher Columbus', 'Charles Darwin', 'Elvis Presley','Albert Einstein','Paul McCartney','Mikhail Gorbachev', 'Jawaharlal Nehru', 'Leonardo Da Vinci', 'Leo Tolstoy', 'Pablo Picasso', 'Vincent Van Gogh','Louis Pasteur','Thomas Edison','Indira Gandhi', 'Oprah Winfrey', 'Benazir Bhutto', 'Lugwig Beethoven']
+n = ['Marilyn Monroe', 'Abraham Lincoln', 'Mother Teresa', 'John F. Kennedy', 'Martin Luther King', 'Nelson Mandela','Winston Churchill', 'Bill gates', 'Mahatma Gandhi', 'Margaret Thatcher','Christopher Columbus', 'Charles Darwin', 'Elvis Presley','Albert Einstein','Paul McCartney','Mikhail Gorbachev', 'Jawaharlal Nehru', 'Leonardo Da Vinci', 'Leo Tolstoy', 'Pablo Picasso', 'Vincent Van Gogh','Louis Pasteur','Thomas Edison','Indira Gandhi', 'Oprah Winfrey', 'Benazir Bhutto', 'Ludwig Beethoven']
 
 randomList = random.sample(n,8)
 
