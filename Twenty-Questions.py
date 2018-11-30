@@ -13,7 +13,7 @@ print 'Type your selection exactly as shown in the list above.'
 
 response = ['Y','N','y','n']
 correct = ['Correct','correct']
-
+#You could also use .lower()/.upper() type checks above
 #r = getpass.getpass("Select from the list above: ")
 
 while (i<21):
